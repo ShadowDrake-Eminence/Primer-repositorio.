@@ -1,3 +1,13 @@
+## Integrantes ## :
+1. 
+2. Paolo Sepúlveda
+3. 
+4. 
+5. 
+6. 
+## Sección 303 ##
+
+
 La clean arquitecture se basa en 3 principios.
 
 1. Independencia total

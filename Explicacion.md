@@ -1,5 +1,5 @@
 ## Integrantes ## :
-1. 
+1. Camilo Valenzuela
 2. Paolo Sepúlveda
 3. 
 4. 
@@ -37,12 +37,15 @@ src/
 │   └── value-objects/     # Objetos sin identidad propia
 ├── application/           # Capa 2: Casos de Uso
 │   ├── use-cases/         # Lógica de aplicación (ej. CreateUser.ts)
-│   └── dtos/              # Estructuras de datos de entrada/salida
+│   ├── dtos/              # Estructuras de datos de entrada/salida
+│   └── interfaces/        # Contratos para servicios de soporte (ej. IEmailSender.ts)
 ├── infrastructure/        # Capa 3: Detalles Técnicos
 │   ├── repositories/      # Implementaciones (ej. MongoUserRepository.ts)
 │   ├── external-services/ # Clientes de terceros
+│   ├── database/          # Clientes y scripts de conexión (ej. Prisma, Knex o Mongoose)
 │   └── persistence/       # Configuración de ORMs/Drivers
 └── presentation/          # Capa 4: Entrada y Salida
     ├── controllers/       # Manejadores de rutas
     ├── routes/            # Definición de endpoints
+    ├── presenters/        # Transformación de datos para la respuesta final (ej. JSON formatters)
     └── middlewares/       # Lógica de pre-procesamiento

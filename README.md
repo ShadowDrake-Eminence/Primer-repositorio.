@@ -4,7 +4,7 @@
 3. Benjamín Farías
 4. Bastián Encina
 5. Mauricio Reynoso
-6. 
+6. Benjamin Lara
 ## Sección 303 ##
 
 

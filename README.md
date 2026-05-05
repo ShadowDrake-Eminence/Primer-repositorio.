@@ -2,7 +2,7 @@
 1. Camilo Valenzuela
 2. Paolo Sepúlveda
 3. Benjamín Farías
-4. 
+4. Bastián Encina
 5. 
 6. 
 ## Sección 303 ##

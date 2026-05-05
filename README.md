@@ -3,7 +3,7 @@
 2. Paolo Sepúlveda
 3. Benjamín Farías
 4. Bastián Encina
-5. 
+5. Mauricio Reynoso
 6. 
 ## Sección 303 ##
 

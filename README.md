@@ -1,7 +1,7 @@
 ## Integrantes ## :
 1. Camilo Valenzuela
 2. Paolo Sepúlveda
-3. 
+3. Benjamín Farías
 4. 
 5. 
 6. 

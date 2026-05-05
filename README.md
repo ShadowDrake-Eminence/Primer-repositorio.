@@ -1,25 +1,26 @@
 ## Integrantes ## :
+
 1. Camilo Valenzuela
 2. Paolo Sepúlveda
 3. Benjamín Farías
 4. Bastián Encina
 5. Mauricio Reynoso
 6. Benjamin Lara
-## Sección 303 ##
 
+## Sección 303
 
 La clean arquitecture se basa en 3 principios.
 
 1. Independencia total
-Esto aplicado se entiende de la siguiente manera: El codigo de negocio no sabe ni le importa si los datos vienen de 
-una base de datos SQL, una API o archivo de texto. Solo cumple con su mision sin cuestionar como le llegan los datos.
+   Esto aplicado se entiende de la siguiente manera: El codigo de negocio no sabe ni le importa si los datos vienen de
+   una base de datos SQL, una API o archivo de texto. Solo cumple con su mision sin cuestionar como le llegan los datos.
 
 2. La regla de la dependencia
-Esto se puede ver en las dependencias, las cuales siempre apuntan hacia el centro. Las capas exteriores pueden conocer
-las del interior, pero no al reves.
+   Esto se puede ver en las dependencias, las cuales siempre apuntan hacia el centro. Las capas exteriores pueden conocer
+   las del interior, pero no al reves.
 
 3. Separacion por capas
-Esta es mas evidente que las otras, aqui de o un ejemplo:
+   Esta es mas evidente que las otras, aqui de o un ejemplo:
 
 Entidades ==> Son las reglas globales.
 Casos de Uso ==> Reglas especificas para funciones concretas.
@@ -49,3 +50,4 @@ src/
     ├── routes/            # Definición de endpoints
     ├── presenters/        # Transformación de datos para la respuesta final (ej. JSON formatters)
     └── middlewares/       # Lógica de pre-procesamiento
+```
